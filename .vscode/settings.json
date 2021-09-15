@@ -1,0 +1,7 @@
+{
+  "maven.view": "flat",
+  "java.project.sourcePaths": [
+    "xunitTdd/src",
+    "XUnitTest/src"
+  ]
+}
