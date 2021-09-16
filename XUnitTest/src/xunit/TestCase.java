@@ -9,7 +9,9 @@ public class TestCase {
     this.name = name;
   }
 
+  public void setUp(){}
   public void run() {
+    setUp();
     try {
       Method method = getClass().getMethod(this.name);
       method.invoke(this); //this객체의 메서드를 부름 
