@@ -14,6 +14,7 @@ public class TestCase {
       Method method = getClass().getMethod(this.name);
       method.invoke(this); //this객체의 메서드를 부름 
       
+
     } catch (NoSuchMethodException  
               | IllegalAccessException 
               | IllegalArgumentException 
